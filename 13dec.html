@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a;
+        var b;
+        a = prompt("Enter the first value");
+        b = prompt("Enter the second value");
+        if (a < b) {
+           document.write(a)
+        } else {
+            document.write(b)
+        }
+
+        let year = prompt("Enter the year name");
+        if ( (year%4 == 0) && (year%100 !== 0) && (year%400 !== 0)) {
+            document.write(year+ "is a leap year")
+        } else {
+            document.write(year+  "is not a leap year")
+        }
+         
+                                             
+        var a;
+        a = prompt("Enter the value"); 
+        if (a >= 90) {
+            document.write("A grade")
+        } else if(a >= 80) {
+            document.write("B grade")
+        }else if(a >= 70) {
+            document.write("C grade")
+        }else if(a >= 60){
+            document.write("D grade")
+        }else if(a >= 33){
+            document.write("E grade")
+        }else{
+            document.write("Fail")
+        }
+
+        Q4
+        var a;
+        a = prompt("Enter the age to know the Ticket price")
+        if (a <= 6) {
+            document.write("Ticket price is 500")
+        } else if(a <= 18) {
+            document.write("Ticket price is 1500")
+        } else if(a <= 60){
+            document.write("Ticket price is 2500")
+        } else {
+            document.write("Ticket price is 2000")
+        }
+
+       
+    </script>
+</body>
+</html>
