@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let English = parseInt(prompt("Enter English marks"));
+        let Science = parseInt(prompt("Enter Science marks"));
+        let hindi = parseInt(prompt("Enter hindi marks"));
+        let Maths = parseInt(prompt("Enter maths marks"));
+      
+        document.write("hindi:"+ hindi);
+        document.write("English:" +English);
+        document.write("Science:" +Science);
+        document.write("Maths:" +Maths );
+
+        let totalmarks = (hindi+English+Science+Maths);
+        document.write(totalmarks);
+        let avg = totalmarks/4;
+        document.write(avg ,"%" );
+
+       if (avg > 90) {
+        document.write("A+")
+       }else if(avg > 80){
+        document.write("A")
+       }else if(avg > 70){
+        document.write("B")
+       }else if(avg > 60){
+        document.write("D")
+       }else if(avg > 50){
+        document.write("E")
+       }else if(avg > 40){
+        document.write("Fail")
+       }
+        
+
+    </script>
+</body>
+</html>
