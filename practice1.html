@@ -77,12 +77,75 @@
     // }
     // document.write("Sum of first " +n+ " natural number is" +sum)
         
-     let i = 0;
-     let n = prompt("Enter the value");
-     while (i<n) {
-        document.write(i)
-        i++;
-     }
+    //  let i = 0;
+    //  let n = prompt("Enter the value");
+    //  while (i<n) {
+    //     document.write(i)
+    //     i++;
+    //  }
+
+    // for(let i = 0; i <= 10; i++){
+    //     document.write(i,"<br>" +"outer loop");
+    //     for( j = 0; j <= 10; j++)
+    //      document.write(i + "x" + j+ "=" +i*j,"<br>" )
+    // }
+
+    // for( i = 0; i <= 10; i++){
+    //     document.write(i,"<br>")
+    //   if ( i == 5) {
+    //     document.write("Detected 5" ,"<br>");
+    //     continue;
+    //   }
+    // }
+
+    // for( i =  1; i <= 5; i++){
+    //   for(j = 1; j <= i; j++){
+    //     document.write("*")
+    //   }
+    //   document.write("<br>")
+    // }
+    //  document.write("<br>")
+
+    // for( i =  5; i >= 1; i--){
+    //   for(j = 1; j <= i; j++){
+    //     document.write("*")
+    //   }
+    //   document.write("<br>")
+    // }
+
+
+    // for(i = 1; i <= 5; i++){
+    //   for(j = 1; j<= i-1; j++){
+    //      document.write("&nbsp;&nbsp;")
+    //   }
+    //   for(k = 1; k <= 5-i+1; k++){
+    //     document.write("*")
+    //   } 
+    //   document.write("</br>")
+    // }
+
+   
+    
+    for( let i = 1; i <= 5; i++){
+      for( let j = 1; j <= 5-i; j++){
+        document.write("&nbsp&nbsp")
+      }
+      for(let k = 1; k <= i; k++){
+        document.write("*")
+      }
+      
+       
+      for(let j = 1; j<=i-1; j++){
+          document.write("*")
+        }
+      document.write("</br>")
+      
+    }
+
+    
+       
+    
+    
 
     </script>
 </body>
