@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrongseries</title>
+</head>
+<body>
+    <script>
+        // Arm Strong number
+        // let x = 153;
+        // let temp = x;
+        // let sum = 0;
+        // while( x != 0){
+        //     r = x%10
+        //     sum += r*r*r;
+        //     x = parseInt(x/10)
+
+        // }
+        // if (temp == sum) {
+        //     document.write("Arm strong number")
+        // }else{
+        //     document.write("It is not armstrong")
+        // }
+
+        // let x = 370;
+        // let temp = x;
+        // let sum = 0;
+        
+        // while( x != 0){
+        //     r = x % 10;
+        //     sum += r*r*r
+        //     x = parseInt(x/10)
+        // }
+
+        // if ( temp == sum) {
+        //     document.write("It is an arm strong number")
+        // } else {
+        //     document.write("It is not arm strong number")
+        // }
+
+        let x = 372;
+        let temp = x;
+        let sum = 0;
+
+        while ( x != 0) {
+            y = x % 10
+            sum += y*y*y
+            x = parseInt(x/10)
+        }
+        if (temp == sum) {
+            document.write("Armstrong number")
+        } else {
+            document.write("Not an Armstrong number")
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Functions in javascript
+        function add(x, y) {
+            document.write(x + y)
+        }
+        add(23, 76)
+        document.write("<br>")
+
+        // Question 2
+        function name() {
+            document.write("My name is Siddharth sharma")
+        }
+        name()
+        document.write("<br>")
+
+        // Question 3 
+        function addnumber(number1, number2) {
+            let result = number1 + number2
+            return result
+        }
+        const result = addnumber(67, 23)
+        document.write("Result :", result)
+
+        document.write("<br>")
+
+
+        //  Question 4
+        function userlogmessage(username) {
+            return `${username} Just logged in`
+        }
+        document.write(userlogmessage("Naman tripathi"))
+        document.write("<br>")
+
+
+        function Addition(num1, num2) {
+            return num1 + num2
+        }
+        document.write(Addition(455, 55))
+
+
+        document.write("<br>")
+
+        // printing square pattern through function
+        // function printtable(){
+        //     for( i = 1; i <= 5; i++){
+        //        for( j = 1; j <= 5; j++){
+        //          document.write("* ")
+        //        }
+        //        document.write("<br>")
+
+        //     }
+        // }
+        // printtable()
+
+
+        function printtable() {
+            for (i = 1; i <= 10; i++) {
+                for (j = 1; j <= 10; j++) {
+                    document.write(i*j +"<br>")
+                }
+                document.write("<br>")
+            }
+
+        }
+
+        printtable()
+
+    </script>
+</body>
+
+</html>
