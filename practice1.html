@@ -213,12 +213,43 @@
     //    }
     //    document.write("<br>")
     //  }
-     for( i = 1; i <= 5; i++){
-       for( j = 1; j <= i; j++){
-         document.write(1+i+i)
-       }
-       document.write("</br>")
-     }
+    //  for( i = 1; i <= 5; i++){
+    //    for( j = 1; j <= i; j++){
+    //      document.write(1+i+i)
+    //    }
+    //    document.write("</br>")
+    //  }
+
+    let marvelheros = ["Supermen","Batmen","Thor"]
+    let DCheros = ["Spidermen","Flash","Batmen"]
+    // // marvelheros.push(DCheros)
+    // // //console.log(marvelheros);
+    // // console.log(marvelheros[3][2])
+
+    // // Adding two arrays
+    //  //let myheros = marvelheros.concat(DCheros);
+    //  //console.log(myheros);
+
+    //  let allheroes = [...marvelheros,...DCheros];
+     //console.log(allheroes);
+
+     // Flat method is used in array to join array when more than 
+     //one array are within one array
+     const newhero = [1,43,22,[40,55,13],7,[89,99,[1,2],91]];
+     const array = newhero.flat(Infinity);
+     console.log(array);
+
+
+     let a = [2,3,45,66];
+     let b = [22,16,19,54];
+    //  let c = a.concat(b);
+    //  document.write(c)
+
+    let c = [a,b];
+    document.write(c)
+
+
+
 
   </script>
 </body>
