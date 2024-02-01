@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let user = {
+        //     name : "Karan",
+        //     age : 22,
+        //     occupation : "web developer"
+        // }
+        // for( entry of Object.entries(user)){
+        // console.log(`${entry[0]} => ${entry[1]}`)
+        //}
+
+        // for(const key of Object.keys(user)){
+        //     console.log(`${key} => ${user[key]}`)
+        // }
+
+        // for(const [keys,values] of Object.entries(user)){
+        //   console.log(`${keys} => ${values}`)
+        // }
+
+        // document.write(Object.keys(user))
+        // document.write("<br>")
+        //document.write(Object.values(user))
+
+
+
+        //document.write(Object.entries(user));
+
+
+        //  let javascript = {
+        //     name : "karan singh",
+        //     age : "25",
+        //     Address : "hashiarpur , punjab",
+
+        //      welcomemessage : function(){
+        //         console.log(`Welcome to mywebsites ,${this.name}`)
+        //         console.log(`${this.age} is your age `)
+        //         console.log(`And your address is ${this.Address}`)
+        //      }
+        //  }
+
+        //  javascript.welcomemessage()
+
+
+        // Iterating String
+        //   let people = ["Karan","Varun","Uday","Shyam"];
+        //   for(key in people){
+        //     console.log(people[key])
+        //   }
+
+        // Iterating an object using traditional for loop 
+        // let obj = {
+        //     name : "karan",
+        //     language : "javascript",
+        //     Hobbies : "Software developer"
+        // }
+        // for (let index = 0; index < Object.keys(obj).length; index++) {
+        //     const element = obj[Object.keys(obj)[index]];
+        //     console.log(element)
+        // }
+
+
+        // For in loop
+
+        // Iterating an String using for in loop
+        //let mystring = "Welcome to Full Stack Development Course";
+        // for(  let char in mystring){
+        //  console.log(mystring[char])
+        // }
+
+        // for (let index = 0; index <  Object.keys(mystring).length; index++) {
+        //     const element = mystring[Object.keys(mystring)[index]];
+        //     console.log(element)
+
+        // }
+
+        // For of loop
+        // let friends = ["Karan","Aman","Baman","Vikram"]
+        // for( let name of friends){
+        //   document.write(name,"&nbsp")
+        // }
+        // document.write("<br>")
+        // for(let name2 of mystring){
+        //   document.write(name2)
+        // }
+
+        // loop over an object
+        let obj = {
+            name: "Manav randhava",
+            age: "29",
+            langugae: "Javascript"
+        }
+
+        //let user = Object.keys(obj);
+        // console.log(user.length)
+        // console.log(user)
+        // for( let name2 of user){
+        //   console.log(name2)
+        // }
+
+
+        // Looping over objects property values
+        // Values method returns an array
+        // That array will contain all the properties values of passed object as its element
+        // let values = Object.values(obj);
+        // console.log(values);
+        // for( val of values){
+        //   console.log(val)
+        // }
+
+
+        // Looping over both property name and value
+        // let entry = Object.entries(obj);
+        // console.log(entry);
+        // for([key,val] of entry){
+        //    console.log(`${key} : ${val}`)
+        // }
+
+        var student = {
+            name: "David Rayy",
+            sclass: "VI",
+            rollno: 12
+        }
+
+        delete student.rollno
+        console.log(student);
+
+    </script>
+</body>
+
+</html>
