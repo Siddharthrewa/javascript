@@ -73,6 +73,27 @@
         // }
         // console.log(returnarray(myarray))
 
+
+        // Types of functions
+
+        // 1) Declaration Function
+        function saymyname(){
+            console.log("My name is Siddharth Sharma")
+        }
+        saymyname();
+
+        // 2) Expression Function
+          let name = function(){
+            console.log("Java is an object oriented programming language")
+          }
+          name();
+
+        // 3) Arrow Function
+        let num = (name,age) =>
+        `Hello my name is ${name} and my age is ${age}`;
+        const output = num("Siddharth",19);
+        console.log(output);
+
     </script>
 </body>
 
