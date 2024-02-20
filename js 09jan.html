@@ -16,19 +16,28 @@
         //     console.log("Hello world")
         // })()
 
-        (function sum(a,b){
-            console.log(a+b)
-        })(2,3);
+        // (function sum(a,b){
+        //     console.log(a+b)
+        // })(2,3);
 
-        (function sub(a,b){
-            console.log(a+b)
-        })(8,3);
+        // (function sub(a,b){
+        //     console.log(a+b)
+        // })(8,3);
 
-        (function sub(x,y){
-            console.log(x-y)
-        })(12,6)
+        // (function sub(x,y){
+        //     console.log(x-y)
+        // })(12,6)
         
-       
+       let array = [2,3,5,6,8,12,8,4];
+       (function even(){
+           for(i = 0; i <= array.length(); i++){
+              if (array[i] % 2 == 0) {
+                document.write(array[i])
+              }else{
+                document.write("null")
+              }
+           }
+       })()
 
     </script>
 </body>

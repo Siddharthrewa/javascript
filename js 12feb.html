@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         
+          person  ={
+            
+          }
+          person.name = "Siddharth"
+          person.email = "sharma@gmail.com"
+          let key =  Object.keys(person)
+          //console.log(key)
+          let values = Object.values(person)
+        // //   console.log(values)
+        //   let entries = Object.entries(person)
+        //   console.log(key.length)
+        //   for( i = 0; i < key.length; i++){
+        //     console.log(person[i])
+        //      document.write(person[key[i]])
+        //   }
+        // for( i in person){
+        //  document.write(person[i])
+        // }
+        // document.write("<br>")
+        // for(i in person){
+        //     document.write(i)
+        // }
+
+        for(i of Object.values(person)){
+            document.write(i)
+        }
+        document.write("<br>")
+        
+        for( i of Object.keys(person)){
+             document.write(i)
+        }
+
+    </script>
+</body>
+</html>
