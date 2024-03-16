@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Loops in javascript
+        // printing number from one to n number
+        // let sum = 0;
+        // for( i = 1; i <= 5; i++){
+        //   sum += i
+        //   // sum = sum + i
+        // }
+        // console.log("Addition of five numbers" + sum);
+        // for( i = 0; i <= 5; i++){
+        //  console.log(i);
+        // }
+
+
+        // Example of while loop
+        // let i = 22;
+        // while (i <= 10) {
+        //     console.log("java is an object oriented programming language");
+        //     i++;
+        // }
+
+
+
+        // Example of Do while loop - In the do while the condition always run atleast one time  
+        // let x = 20;
+        // do {
+        //     console.log("My program");
+        //     x++
+        // } while (x <= 15);
+
+
+
+        // For of loop - These loops are mainly used for iteration , but they are specifically
+        // used in strings and array
+        // let str = "Javascript";
+        // let length = 0;
+        // for (value of str) {
+        //     console.log(value);
+        //     length++;
+        // }
+        // console.log("Str lengt =",  length);
+
+
+
+        // For in loop - This loop is mainly used in objects and the itearator of for in 
+        // loop used for printing the keys of object
+        // let Person = {
+        //     name : "Siddharth sharma",
+        //     age : 19,
+        //     cgpa : 9.2,
+        //     Role : "Web developer"
+        // }
+        // for( key in Person){
+        //   console.log(key , "= "+ Person[key]);
+        // }
+        // For printing keys in object
+        // console.log(key)
+        // For printing values in object
+        // console.log(person[key])
+
+
+        // Printing even number 
+        // for (i = 0; i <= 100; i++) {
+        //     if (i % 2 == 0) {
+        //         console.log(i);
+        //     }
+        // }
+
+        // Game pattern question
+        // let guessnum = 100;
+        // let usernum = prompt("Enter the correct game number")
+        // while (usernum != guessnum) {   
+        //     usernum = prompt("Wrong answer please enter again")
+        // }
+        // console.log("Congratulation you have enter the correct number");
+
+
+        // Game the pattern number 
+        //    let guessnum = 100;
+        //    let usernum = prompt("Enter the guessing number");
+        //    while (guessnum != usernum) {
+        //      usernum = prompt("Incorrect number please enter again")
+        //    }
+        //     document.write("You enter the right number");
+
+
+
+        // for of loop ,are those loops which are basically used in string and array and these
+        // loops are not used in objects
+        // let str = "Siddharth";
+        // for(value of str){
+        //     console.log(value);
+        // }
+
+        // let array = [23,13,65,76,36,79];
+        // for(num of array){
+        //     console.log(num);
+        // }
+
+        // For in loop - This loop is used in object 
+
+        // let myinfo = {
+        //     name: "Siddharth sharma",
+        //     age: 19,
+        //     Education: "BBA",
+        //     Role: "Web developer",
+        // }
+        // for (value in myinfo) {
+        //     console.log(value + " = " + myinfo[value]);
+        // }
+
+
+        // Questions of nested loops in javascript
+        // for (i = 1; i <= 100; i = i + 10) {
+        //     for (j = i; j < i + 10; j++) {
+        //         console.log(j)
+        //     }
+        // }
+
+
+       
+
+        // for (i = 1; i <= 5; i++) {               1  
+        //    for(j = 1; j <= i; j++){              1 2
+        //       document.write(j +"  ");           1 2 3 
+        //    }                                     1 2 3 4 
+        //    document.write("<br>")                1 2 3 4 5 
+        // }
+
+
+        // for(i = 1; i <= 5; i++){               // 1 2 3 4 5
+        //   for( j = i; j <= 5; j++){            // 2 3 4 5 
+        //      document.write(j+" ")             // 3 4 5
+        //   }                                    // 4 5 
+        //   document.write("<br>")               // 5 
+        // }
+ 
+        //for( i = 1; i <= 5; i++){                   1
+        //   for( j = 1; j <= i; j++){                2 2 
+        //    document.write(i+" ");                  3 3 3  
+        //   }                                        4 4 4 4
+        //   document.write("<br>")                   5 5 5 5 5
+        //}
+
+
+        // for(i = 5; i >= 1; i--){
+        //   for( j = 5; j >= i; j++){
+        //    document.write(j+" ")
+        //   }
+        //   document.write("<br>")
+        // }
+
+        // Functions are the block of code that can be executed and defiined whenever needed
+        // they are the crucial part of the javascript. function are used to perform some
+        // specific task. they are defined as first class citizen because they can be treated 
+        // like any other value
+
+        // function myfunc(){
+        //    document.write("javascript is a object scripting programming lannguage");
+        // }
+        // myfunc();
+
+        // document.write("<br>")
+        // function sum(a,b){
+        //     document.write(a+b)
+        // }
+        // sum(12,6);
+        // document.write("<br>")
+
+        // function mycalc(x,y){
+        //     return x+y
+        // }
+        // document.write(mycalc(12,8))
+        // document.write("<br>")
+
+        // Expression function
+        // let myfunc2 = function () {
+        //   document.write("Structured query language")
+        // }
+        // myfunc2();
+        // document.write("<br>")
+
+        
+        // // Arrow function in javascript
+        // let mynumber = (a,b) => {
+        //     return a + b
+        // }
+        // document.write(mynumber(55,25))
+
+
+
+        // Armstrong number
+        let x = 153;
+        let temp = x;
+        let sum = 0;
+        while ( x != 0) {
+            y = x % 10;
+            sum += y*y*y
+            x = parseInt(x/10) 
+        }
+        if (temp == sum) {
+            document.write("It is an armstrong number")
+        } else {
+            document.write("It is not an armstrong number")
+        }
+
+        
+    </script>
+</body>
+
+</html>

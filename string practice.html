@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Q1
+        // let name = "Siddharth"
+        // let Stringvariable = name;
+        // document.write(name.length);
+
+        // document.write("<br>")
+
+        // //Q2
+        // let name2 = "Sankalptiwari";
+        // let fifthchar = name2;
+        // document.write(fifthchar.charAt(5)) 
+
+        // document.write("<br>")
+
+        // //Q3
+        // document.write(fifthchar.charCodeAt("a"))
+        // document.write("<br>")
+
+        // //Q5
+        // let string = "objectorientedprogramminglanguage";
+        // let substring = string;
+        // document.write(substring.substring(25,30));
+
+        // document.write("<br>")
+
+        // //Q6
+        // let substr = "javascriptisanobjectorientedprogramming"
+        // let substring3 = substr;
+        // document.write(substring3.substr(30,5))
+        // document.write("<br>")
+
+
+        //Q7
+        // let mymethod = "Karansingh"
+        // document.write(mymethod.indexOf("r"))
+        // document.write("<br>")
+
+        // document.write(mymethod.lastIndexOf("h"))
+        // document.write("<br>")
+
+
+        // let name3 = "helloo"
+        // document.write(name3.lastIndexOf("l"))
+        // document.write("<br>")
+
+        // document.write(name3.indexOf("l"))
+
+
+        // patterns based questions in javascript
+
+        // for( i = 1; i <= 5; i++){              // 1
+        //   for( j = 1; j <= i; j++ ){           // 1 2
+        //   document.write(j+" ")                // 1 2 3
+        //   }                                    // 1 2 3 4
+        //   document.write("<br>")               // 1 2 3 4 5
+        // }
+        // document.write("<br>")
+
+        // for( i = 1; i <= 5; i++){              // 1
+        //   for( j = 1; j <= i; j++ ){           // 2 2
+        //   document.write(i+" ")                // 3 3 3
+        //   }                                    // 4 4 4 4
+        //   document.write("<br>")               // 5 5 5 5 5
+        // }   
+          
+        //document.write("<br>")
+
+        // for( i = 5; i >= 1; i--){             // 5 4 3 2 1
+        //   for( j = i; j >= 1; j--){           // 4 3 2 1
+        //    document.write(j+" ")              // 3 2 1
+        //   }                                   // 2 1
+        //   document.write("<br>")              // 1
+        // }
+       
+        // document.write("<br>")  
+
+        // for( i = 5; i >= 1; i-- ){            // 5 5 5 5 5
+        //   for( j = i; j >= 1; j--){           // 4 4 4 4
+        //     document.write(i+" ")             // 3 3 3 
+        //   }                                   // 2 2
+        //   document.write("<br>")              // 1
+        // }
+
+        //  for( i = 5; i >= 1; i--){               // * * * * *
+        //    for( j = i; j >= 1; j--){             // * * * *
+        //      document.write("   *  ")            // * * *
+        //    }                                     // * *
+        //    document.write("<br>")                // *
+        //  }
+
+         for( i = 1; i <= 5; i++){
+            for( j = 1; j <= 5-i; j++){
+              document.write("&nbsp&nbsp&nbsp")  //      *
+            }                                    //    * *
+            for( k = 1; k <= i; k++){            //  * * *
+              document.write("* ")               //* * * * 
+            }                                   //* * * ** 
+            document.write("<br>")
+         }
+    </script>
+</body>
+</html>

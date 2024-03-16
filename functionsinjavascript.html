@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // Function in javascript
+    // 1)  Declaration Function
+    function java() {
+      document.write("Javascript is a object scripting programming language")
+    }
+    java()
+
+    document.write("<br>")
+
+    // 2)Passing parameter in function - In javascript when you are passing
+    // parameter than it is mandatory to pass argument in javascript
+    function myadd(a, b) {
+      document.write(a + b)
+    }
+    myadd(12, 15)
+
+    document.write("<br>")
+
+    // 3)Declaration Function - In this function our function is stored
+    // Under variable
+
+    let myfunc = function () {
+      document.write("Java is an object oriented programming language")
+    }
+    myfunc()
+
+    document.write("<br>")
+
+    let user = {
+      username: "Siddharth",
+      age: 20,
+
+      welcomefunction: function () {
+        document.write(`${this.username} , Welcome to javascript Website , ${this.age}`)
+        document.write(this)
+      }
+    }
+    user.welcomefunction();
+    user.age = 19;
+    user.welcomefunction();
+    console.log(this);
+
+    // This keyword cannot be used in function it can only be used 
+    //in object
+
+    //Arrow function (Explicit return)  
+    let myfunction = (num1, num2) => {
+      return num1 + num2
+    }
+    document.write(myfunction(23, 17))
+
+    document.write("<br>")
+
+    // Arrow function (Implicit Return)
+    let mynum = (a, b) => a + b
+    document.write(mynum(43, 7))
+
+
+    const addtwo = (x, y) => ({ username: "RAM" })
+    console.log(addtwo(1, 2))
+  </script>
+</body>
+
+</html>
